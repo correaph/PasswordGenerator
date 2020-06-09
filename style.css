@@ -1,0 +1,9 @@
+#password {
+    border-style: dashed;
+}
+/* Horizontal and vertical alignment */
+.centerXY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

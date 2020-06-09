@@ -16,7 +16,7 @@ function isFormValid() {
     var pwdLength = document.getElementById("passwordLength").value;
     if (pwdLength < 8 || pwdLength > 256) {
         alert("Pasword length must be between 8 and 256!");
-    } if (!document.getElementById("upperCaseCharacters").checked
+    } else if (!document.getElementById("upperCaseCharacters").checked
         && !document.getElementById("lowerCaseCharacters").checked
         && !document.getElementById("numericCharacters").checked
         && !document.getElementById("specialCharacters").checked) {
